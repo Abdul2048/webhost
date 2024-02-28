@@ -1,0 +1,137 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  #head{
+    background-image: url('header.jpg');
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+  }
+  p{
+    
+    margin-bottom: 38px;
+  
+  }
+  header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 37px;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    height: 51px;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: inline;
+  }
+  
+  #hero {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  #hero h2 {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    
+  }
+  .btn:hover{
+    box-shadow: 8px 8px 0 0px darkblue;
+    transition-duration: 1s;
+    
+  }
+  #services {
+    padding: 100px 0;
+    background-color: #323e62;
+
+    color: rgb(230, 230, 230);
+  }
+  
+  .service {
+           
+    text-align: center;
+    margin-bottom: 33px;
+    background-color: #476268c4;
+    padding-bottom: 36px;
+    box-shadow: 20px 12px 10px 2px white;
+    transition-duration: 1s;
+    cursor: pointer;
+   border-radius:37% 63% 90% 10% / 44% 80% 20% 56%  ;
+  }
+  .service:hover{
+    box-shadow: 20px 12px 10px 2px red;
+    transition-duration: 0.5s;
+     
+  }
+  
+  .service img {
+    width: 170px;
+    height: 134px;
+    margin-bottom: 36px;
+    margin-top: 43px;
+    border-radius: 24px;
+  }
+  
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    border-radius: 97px;
+  }
+  header nav ul li a:hover{
+    
+    background-color: rgb(160, 27, 27);
+    transition-duration: 0.41s;
+    border-radius: 96px;
+    
+  }
+  h3{
+    font-size: 31px;
+  }
+  .container h2{
+    font-size: 70px;
+   
+
+  }
+  #serv{
+    margin-top: -71px;
+    margin-bottom: 58px;
+
+  }
+ 
+  a:link {
+     color:bisque;
+     
+  }
